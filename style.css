@@ -115,77 +115,7 @@ html {
       outline: none;
   }
   
-  /* Home Incl Hero */
-  .grid {
-    color: #333;
-    font-size: 60px;
-    display: flex;
-    height: 85vh;
-  }
-  #hero h1 {
-    font-size: 100pt;
-    line-height: 1;
-  }
-  #hero:before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 50%;
-    display: block;
-    width: 50%;
-    height: 100%;
-    background-image: url(../images/jennifer2.jpg);
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: cover;
-  }
-  .align-self-center {
-      -webkit-align-self: center;
-      -ms-flex-item-align: center;
-      align-self: center;
-      vertical-align: middle;
-  }
-  .intro-pic {
-    display: none;
-  }
-  .intro-pic img{
-    width: 100%;
-  }
-  
-  
-  /* Home Featured Project */
-  #featured-project {
-    display: flex;
-    align-items: center;
-    height: 90vh;
-    color: #fff;
-  }
-  
-  
-  /* Home Recent Project */
-  #recent-project {
-    color: #333;
-  }
-  #recent-project .rp .row {
-    text-align: center;
-  }
-  .rp {
-  padding: 75px 0 0;
-  text-align: center;
-  }
-  
-  .rp img { margin-bottom: 25px; }
-  
-  
-  .portfolio {
-    padding: 75px 0 0;
-  }
-  .portfolio img { margin-bottom: 25px; }
-  
-  /* Home Recent + Featured */
-  #recent-project img, #featured-project img {
-    max-width: 100%;
-  }
+
   
   
   /* Interior Pages */
@@ -205,7 +135,7 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
-  /* Portfolio Master Description Page */
+  /* Portfolio Description Page */
   .portfolio-description h4 {
     font-size: 18px;
   }
@@ -233,11 +163,12 @@ html {
   }
   
   footer p {
-    margin-top: 0;
+    margin-top: 5;
   }
   footer ul {
     list-style-type: none;
     padding-inline-start: 0;
+    text-align: right;
   }
   
   footer img {
@@ -252,7 +183,7 @@ html {
   
   footer i {
     color: #f6e667;
-    margin-right: 8px;
+    margin-right: 5px;
   }
   
   footer .btn-primary {
